@@ -20,9 +20,10 @@ tokenizer, model = load_model()
 
 @st.cache_data
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained(model)
-    model = AutoModelForSequenceClassification.from_pretrained(model)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
     return tokenizer, model
+
 
 
 
