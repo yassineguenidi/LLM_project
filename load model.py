@@ -32,3 +32,6 @@ def load_model():
 #     model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 #     return tokenizer, model
 # tokenizer, model = load_model()
+
+def visualization():
+    st.title("this is a model")
