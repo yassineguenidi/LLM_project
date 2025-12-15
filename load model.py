@@ -5,6 +5,8 @@ import pandas as pd
 
 
 
+
+
 # -------------------------------------------------------------------------
 # 1. Load model & tokenizer
 # -------------------------------------------------------------------------
@@ -36,3 +38,6 @@ def load_model():
 
 def visualization():
     st.title("this is a model")
+    st.success("this title is affiched")
+    st.subheader("----------------------")
+    
